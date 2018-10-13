@@ -1,5 +1,5 @@
-<project name="BukkitSamplePlugin" default="dist" basedir=".">
-	<property name="pluginname" value="BukkitSamplePlugin"/>
+<project name="TeamGamerPlugin" default="dist" basedir=".">
+	<property name="TeamGamerPlugin" value="BukkitSamplePlugin"/>
 	<property name="bukkit.jar" location="../Bukkit/dist/Bukkit.jar"/>
 	<property name="plugins" location="../../plugins/"/>
 
@@ -28,7 +28,7 @@
 	</target>
 	
 	<target name="deploy" depends="dist">
-		<copy file="${dist}/${pluginname}.jar" todir="${plugins}"/>
+		<copy file="${dist}/${TeamGamerPlugin}.jar" todir="${plugins}"/>
 	</target>
 	
 	<target name="clean">
